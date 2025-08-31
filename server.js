@@ -1,6 +1,5 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const { pool } = require('./db');
 const { ensureSchema } = require('./schema');
 const usersRouter = require('./routes/user');
 
